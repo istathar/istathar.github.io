@@ -1,0 +1,371 @@
+body {
+	font-family: "DejaVu Sans", "Bitstream Vera Sans", "Droid Sans", Arial, sans-serif;
+	font-size: 16px;
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2, h3 {
+	color: black;
+	font-family: "Liberation Sans", "Bitstream Vera Sans", "Droid Sans", "Arial", sans-serif;
+}
+
+a:link				{ text-decoration: none; color: #3465a4; }
+a:visited			{ text-decoration: none; color: #3465a4; }
+a:hover				{ text-decoration: underline; color: #3465a4; }
+
+.tan {
+	background-color: #c1ba99;
+	color: #000000;
+}
+.white {
+	background-color: #ffffff;
+	color: #000000;
+}
+.blue {
+	background-color: #333366;
+	color: #FFFFFF;
+}
+.gray {
+	background-color: #babdb5;
+	color: #000000;
+}
+
+.topbanner {
+	color: #000000;
+	padding: 5px;
+}
+
+.tanpanel {
+	clear: both;
+	background-color: #c1ba99;
+	color: #000000;
+	font-size: x-small;
+}
+
+.bluepanel {
+	background: url(/images/logo/twirl-background.jpg);
+	clear: both;
+}
+
+.rightnavpanel {
+	float: right;
+	background-color: #c1ba99;
+	color: #000000;
+	font-size: small;
+	margin-top: 5px;
+	margin-left: 8px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: solid black 1px;
+}
+
+.maincontent {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.notebox {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+p.notebox {
+	font-family: "DejaVu Serif Condensed", "Bitstream Vera Serif", "Droid Serif", "Times New Roman", serif;
+	font-style: italic;
+}
+
+a.black	{
+	text-decoration: none;
+	color: #000000;
+	background-color: transparent;
+}
+
+a.gray {
+	text-decoration: none;
+	color: gray;
+	background-color: transparent;
+}
+
+/*
+ * Lists with icon images as bullets
+ */
+
+div.bullet {
+	clear: left;
+	min-height: 48px;
+}
+div.bullet img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+div.bullet p {
+	margin-left: 70px;
+	margin-right: 50px;
+}
+div.bullet h1 {
+	margin-left: 70px;
+}
+div.bullet h2 {
+	padding-top: 3px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+}
+div.bullet h3 {
+	padding-top: 3px;
+	margin-left: 70px;
+	margin-bottom: 0px;
+}
+div.bullet h2+p {
+	margin-top: 0px;
+}
+div.bullet h3+p {
+	margin-top: 0px;
+}
+
+div.under {
+	margin-left: 70px;
+	max-width: 1000px;
+	text-align: left;
+}
+
+div.under p {
+	margin-right: 20px;
+}
+
+a.nav-black	{ text-decoration: none; color: #000000; border-bottom: 0px; background-color: transparent; }
+
+a.nav-blue	{ text-decoration: none; color: #FFFFFF; border-bottom: 0px; background-color: transparent; }
+
+a.download {
+	font-family: "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+	font-size: small;
+	text-decoration: none;
+}
+
+a.external {
+	background: url(/images/links/external.png) center right no-repeat;
+	padding-right: 13px;
+}
+
+a.video {
+	background: url(/images/links/video.png) center right no-repeat;
+	padding-right: 18px;
+}
+
+a[href*=".pdf"].document {
+	background: url(/images/links/pdf.png) center right no-repeat;
+	padding-right: 18px;
+}
+div.under a[href*=".pdf"].document {
+	background: url(/images/links/pdf.png) center right no-repeat;
+	padding-right: 18px;
+}
+
+.package {
+	color: black;
+	font-weight: bold;
+}
+
+div.under a[href*="hackage"].package {
+	background: url(/images/links/hackage.png) center right no-repeat;
+	padding-right: 18px;
+	color: black;
+	font-weight: bold;
+}
+div.under a[href*="github"].repository {
+	background: url(/images/links/git.png) top right no-repeat;
+	padding-right: 12px;
+}
+
+hr {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.bottompanel {
+	text-align: right;
+	color: gray;
+	font-size: 12px;
+	padding-top: 0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	width: 50%;
+	float: right;
+	max-width: 800px;
+}
+
+@media screen {
+	span.FIXME {
+		color: green;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+
+	#operational {
+		padding: 10px;
+	}
+	#dynamics {
+		padding: 10px;
+	}
+
+	.navigation {
+		text-align: right;
+		color: #666666;
+		clear: both;
+	}
+	.navigation h1 {
+		color: #666666;
+		font-size: 16px;
+		margin-right: 10px;
+		margin-left: 5px;
+		background: url(/images/links/go-next-16x16.png) center right no-repeat;
+		min-height: 16px;
+		padding-right: 24px;
+		padding-top: 0px;
+	}
+	.navigation hr {
+		display: none;
+	}
+	.navigation a:hover	{ text-decoration: none; }
+}
+
+@media only screen and (max-width: 1000px) { 
+	span.FIXME {
+		color: #3465a4;
+	}
+	#logo {
+		width: 34px;
+		height: 43px;
+		vertical-align: top;
+		padding-top: 6px;
+		padding-right: 5px;
+	}	
+	#operational {
+		width: 228px;
+		height: 40px;
+		padding: 0px;
+		padding-top: 10px;
+		margin-right: 10px;
+	}
+	#dynamics {
+		width: 183px;
+		height: 40px;
+		padding: 0px;
+		padding-top: 10px;
+		margin-left: 2px;
+		margin-right: 10px;
+	}
+	.mobile {
+		display: none;
+	}
+	.desktop {
+		display: inline;
+	}
+	.topbanner {
+		padding-top: 0px;
+	}
+	.bottompanel {
+		width: 60%;
+	}
+	div.notebox {
+		margin-left: 35px;
+		margin-right: 50px;
+	}
+	div.bullet p {
+		margin-right: 20px;
+	}
+	.navigation h1 {
+		font-size: 24px;
+		background: url(/images/links/go-next.png) center right no-repeat;
+		min-height: 32px;
+		padding-right: 40px;
+		padding-top: 3px;
+	}
+}
+
+@media only screen and (max-width: 690px) { 
+	div.under {
+		margin-left: 10px;
+	}
+}
+
+@media only screen and (max-width: 495px) { 
+	span.FIXME {
+		color: #dddddd;
+	}
+	#logo {
+		display: none;
+	}
+	#operational {
+		width: 171px;
+		height: 30px;
+		clear: both;
+	}
+	#dynamics {
+		width: 137px;
+		height: 30px;
+		clear: both;
+	}
+	.mobile {
+		display: inherit;
+	}
+	.desktop {
+		display: none;
+	}
+	.bottompanel {
+		font-size: 9px;
+		width: 70%;
+	}
+	div.notebox {
+		margin-top: 10px;
+		margin-left: 0px;
+		margin-right: 5px;
+	}
+	div.bullet h2 {
+		clear: left;
+		margin-left: 0px;
+	}
+	div.bullet h3 {
+		clear: left;
+		margin-left: 0px;
+	}
+	div.bullet p {
+		margin-right: 3px;
+		margin-left: 0px;
+		clear: left;
+	}
+	div.bullet img {
+		margin-bottom: 5px;
+	}
+
+	div.under {
+		margin-left: 0px;
+	}
+	.navigation {
+		text-align: left;
+		padding-left: 0px;
+	}
+	.navigation h1 {
+		font-size: 20px;
+		background: url(/images/links/go-next.png) top right no-repeat;
+		min-height: 32px;
+		padding-right: 36px;
+		padding-top: 3px;
+	}
+	.navigation hr {
+		display: inherit;
+	}
+}
